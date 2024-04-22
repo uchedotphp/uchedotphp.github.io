@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  
+  <body>
+    <!-- goes in here -->
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about-us.html" target="_blank">About</a>
+        <a href="cart.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Home page</h1>
+
+      <button onclick="clickMe">
+        Contact
+      </button>
+
+      <a href="contact-us.html" class="cart-btn">Contact</a>
+    </main>
+
+    <script>
+      function clickMe(e) {
+        console.log(e);
+        console.log("i was clicked");
+      }
+    </script>
+  </body>
+</html>
